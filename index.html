@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SkyFly — Авиабилеты онлайн</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ====== ШАПКА ====== -->
+  <header class="header">
+    <div class="container">
+      <div class="logo">✈ SkyFly</div>
+      <nav class="nav">
+        <a href="#about">О нас</a>
+        <a href="#features">Преимущества</a>
+        <a href="#accordion">Направления</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ====== ГЛАВНЫЙ БЛОК ====== -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Путешествуй с комфортом</h1>
+      <p>Найди авиабилеты по лучшим ценам за несколько секунд.</p>
+      <a href="#" class="btn">Найти билет</a>
+    </div>
+  </section>
+
+  <!-- ====== ПРЕИМУЩЕСТВА ====== -->
+  <section id="features" class="features">
+    <div class="container">
+      <h2>Наши преимущества</h2>
+      <div class="features-grid">
+        <div class="feature">
+          <h3>Быстро</h3>
+          <p>Мгновенный поиск рейсов по всему миру.</p>
+        </div>
+        <div class="feature">
+          <h3>Удобно</h3>
+          <p>Бронируй билеты прямо с телефона.</p>
+        </div>
+        <div class="feature">
+          <h3>Выгодно</h3>
+          <p>Сравнивай цены авиакомпаний и экономь.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== ГОРИЗОНТАЛЬНЫЙ АККОРДЕОН (CSS-only) ====== -->
+  <section id="accordion" class="accordion-section">
+    <h2>Популярные направления</h2>
+    <div class="accordion-container">
+
+      <div class="tab">
+        <input type="radio" id="tab1" name="tab-group" checked>
+        <label for="tab1" class="tab-title" style="background-image:url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=60')">
+          Море
+        </label>
+        <section class="tab-content">
+          <h3>Пляжный отдых</h3>
+          <p>Летите к лазурным берегам и наслаждайтесь солнцем.</p>
+        </section>
+      </div>
+
+      <div class="tab">
+        <input type="radio" id="tab2" name="tab-group">
+        <label for="tab2" class="tab-title" style="background-image:url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=60')">
+          Горы
+        </label>
+        <section class="tab-content">
+          <h3>Покорение вершин</h3>
+          <p>Исследуй горные маршруты и живописные тропы.</p>
+        </section>
+      </div>
+
+      <div class="tab">
+        <input type="radio" id="tab3" name="tab-group">
+        <label for="tab3" class="tab-title" style="background-image:url('https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=1600&q=60')">
+          Город
+        </label>
+        <section class="tab-content">
+          <h3>Городские приключения</h3>
+          <p>Посети культурные столицы и окунись в атмосферу мегаполисов.</p>
+        </section>
+      </div>
+
+      <div class="tab">
+        <input type="radio" id="tab4" name="tab-group">
+        <label for="tab4" class="tab-title" style="background-image:url('https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?auto=format&fit=crop&w=1600&q=60')">
+          Пустыня
+        </label>
+        <section class="tab-content">
+          <h3>Песчаные дюны</h3>
+          <p>Ощути магию восточных пейзажей и ночного неба.</p>
+        </section>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ====== ПОДВАЛ ====== -->
+  <footer id="contacts" class="footer">
+    <div class="container">
+      <p>© 2025 SkyFly — Все права защищены.</p>
+      <p>Email: support@skyfly.kz</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
